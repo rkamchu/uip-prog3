@@ -1,0 +1,22 @@
+base = 5
+altura = 7
+
+print("Quiz semana 3")
+
+area = base*altura
+perimetro = (2*base)+(2+altura)
+
+print("El perimetro es: " + str(perimetro))
+print("El area es: "+" " + str(area))
+
+areap = altura*2.54
+perimetrop = perimetro*2.54
+
+print("Area en pulgadas: " +str(areap))
+print("Perímetro en pulgadas: " +str(perimetrop))
+
+aream = altura/100
+perimetrom = perimetro/100
+
+print("Area en metros: " +str(aream))
+print("Perímetro en metros: " +str(perimetrom))
