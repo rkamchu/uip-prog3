@@ -1,8 +1,8 @@
-n = 0
-tn =0
-print("Numeros Triangulares")
-num int (input("Ingrese el numero: ""\n"))
-for x in range (num);
-    tri = (x*(x/1))/2
-    if int(tri) <= num;
-        print(str(tri))
+chance = 0
+segundos = 0
+while chance < 6:
+    time_seg = int(input("Ingrese el tiempo en segundos: "))
+    chance +=1
+    if time_seg / 60:
+            segundos = 60 - time_seg % 60
+            print(segundos) 
